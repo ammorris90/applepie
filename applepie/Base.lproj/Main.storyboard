@@ -304,7 +304,6 @@
                         <outlet property="correctWordLabel" destination="Mp8-YV-7xV" id="KDi-KJ-Hbc"/>
                         <outlet property="scoreLabel" destination="jMl-tD-o3L" id="Sl7-hG-xtb"/>
                         <outlet property="treeImageView" destination="Yk2-oH-3JX" id="e3R-BG-nPJ"/>
-                        <outletCollection property="letterButtons" destination="LFD-eR-2zE" collectionClass="NSMutableArray" id="Wbg-dL-IC1"/>
                         <outletCollection property="letterButtons" destination="DQm-fX-Vml" collectionClass="NSMutableArray" id="8Vm-J7-k39"/>
                         <outletCollection property="letterButtons" destination="Wk0-pt-TxY" collectionClass="NSMutableArray" id="LAh-sv-94L"/>
                         <outletCollection property="letterButtons" destination="0x1-RQ-Nfe" collectionClass="NSMutableArray" id="CZW-AK-BGr"/>
