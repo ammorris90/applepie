@@ -71,9 +71,7 @@ class ViewController: UIViewController {
             enableLetterButtons(false)
         }
       
-        let newWord = listOfWords.removeFirst()
-        currentGame = Game(word: newWord, incorrectMovesRemaining: incorrectMovesAllowed, guessedLetters: [])
-        updateUI()
+       
     }
     
      func enableLetterButtons(_ enable: Bool) {
