@@ -12,6 +12,7 @@
 		20B245D222165CDE00B9E84D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B245D022165CDE00B9E84D /* Main.storyboard */; };
 		20B245D422165CDF00B9E84D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B245D322165CDF00B9E84D /* Assets.xcassets */; };
 		20B245D722165CDF00B9E84D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B245D522165CDF00B9E84D /* LaunchScreen.storyboard */; };
+		20D82BAF221B4E2A002FC2D0 /* game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D82BAE221B4E2A002FC2D0 /* game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		20B245D322165CDF00B9E84D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20B245D622165CDF00B9E84D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20B245D822165CDF00B9E84D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D82BAE221B4E2A002FC2D0 /* game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				20B245CC22165CDE00B9E84D /* AppDelegate.swift */,
 				20B245CE22165CDE00B9E84D /* ViewController.swift */,
 				20B245D022165CDE00B9E84D /* Main.storyboard */,
+				20D82BAE221B4E2A002FC2D0 /* game.swift */,
 				20B245D322165CDF00B9E84D /* Assets.xcassets */,
 				20B245D522165CDF00B9E84D /* LaunchScreen.storyboard */,
 				20B245D822165CDF00B9E84D /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D82BAF221B4E2A002FC2D0 /* game.swift in Sources */,
 				20B245CF22165CDE00B9E84D /* ViewController.swift in Sources */,
 				20B245CD22165CDE00B9E84D /* AppDelegate.swift in Sources */,
 			);
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHQN34YQPH;
 				INFOPLIST_FILE = applepie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andymorris.applepie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHQN34YQPH;
 				INFOPLIST_FILE = applepie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andymorris.applepie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
