@@ -1,3 +1,10 @@
 # applepie
-This a simple hangman-esque game where you guess the word by tapping letters. 
-built with Xcode
+
+About:
+Word guessing application
+
+Description:
+This a simple hangman-esque game where you guess the word by tapping letters. Once you're out of apple, you're out of luckk
+
+Built With:
+built with Xcode, Interface Builder, Swift
