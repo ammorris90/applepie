@@ -1,7 +1,7 @@
 
-### applepie
+###### applepie
 
-About:
+### About:
 Word guessing application
 
 ### Description:
